@@ -1,0 +1,71 @@
+body{
+    font-family: 'Oswald', sans-serif;
+  }
+  .man{
+    background-image: url("../img/man.png");
+    background-size: cover;
+  }
+  .lead:first-of-type{
+    display: none;
+  }
+  .skills{    
+    width: 60%;
+    height: 500px;      
+  }
+  table,td,tr{vertical-align:middle!important;}
+  table td:first-child{width:15%;font-size: 1.3rem;text-align: center;}
+  table td:last-child {width:5%;font-size: 1.3rem;text-align: center;}
+
+  .progress{
+    height: 40px;
+  }
+  .progress span{        
+    background-size: 100%  100%;
+    background-repeat: no-repeat;
+    background-color: currentColor;
+    border: 5px solid currentColor;
+    margin-right: 1%;
+    border-radius: 52%;
+    padding: 15px;
+    
+  }
+  .html5 span {
+    background-image:url("../img/svg-icon/html5.svg");
+  }
+  .css3 span{
+    background-image: url("../img/svg-icon/css3.svg");
+  }
+  .javascript span{
+    background-image: url("../img/svg-icon/js.svg");
+  }
+  .jquery span{
+    background-image: url("../img/svg-icon/jquery.svg");
+  }
+  .bootstrap span{
+    background-image: url("../img/svg-icon/bootstrap.svg");
+  }
+  .social{
+    left: -50px;
+  }
+  .social button{
+    background-size: 100% 100%;
+    width: 50px;
+    height: 50px;
+    transition: 1s;
+    border:none;
+    background-color: transparent;
+  }
+   .social button:focus{
+    outline: none!important;
+    box-shadow: none;
+  }
+  .social button:hover,.social button:active{
+    transform: rotate(360deg);
+    transition: 1s;
+  }
+  #social-facebook{background-image: url("../img/social/facebook.png");}
+  #social-instagram{background-image: url("../img/social/instagram.png");}
+  #social-twitter{background-image: url("../img/social/twitter.png");}
+  #social-linkedin{ background-image: url("../img/social/linkedin.png");}
+  
+ .templates img{height: auto; width: 100%;}
