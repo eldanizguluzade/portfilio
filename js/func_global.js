@@ -10,9 +10,11 @@ $(function () {
     setTimeout(() => {
         progress_all(".html5 div", 100, 2);
         progress_all(".css3 div", 100, 5);
-        progress_all(".javascript div", 50, 8);
-        progress_all(".jquery div", 80, 11);
+        progress_all(".javascript div", 80, 8);
+        progress_all(".jquery div", 90, 11);
         progress_all(".bootstrap div", 100, 14);
+        progress_all(".sass div", 100, 17);
+        progress_all(".vuejs div", 30, 20);
         $(".social").animate({        //Left Social Box Animate
             left: "0px"
         }, 2000);

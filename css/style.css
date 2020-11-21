@@ -44,6 +44,12 @@ body{
   .bootstrap span{
     background-image: url("../img/svg-icon/bootstrap.svg");
   }
+  .sass span{
+    background-image: url("../img/svg-icon/sass.svg");
+  }
+  .vuejs span{
+    background-image: url("../img/svg-icon/vue.svg");
+  }
   .social{
     left: -50px;
   }
