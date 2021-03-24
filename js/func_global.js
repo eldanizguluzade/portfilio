@@ -14,7 +14,8 @@ $(function () {
         progress_all(".jquery div", 90, 11);
         progress_all(".bootstrap div", 100, 14);
         progress_all(".sass div", 100, 17);
-        progress_all(".vuejs div", 30, 20);
+        progress_all(".vuejs div", 100, 20);
+        progress_all(".nuxtjs div", 90, 23);
         $(".social").animate({        //Left Social Box Animate
             left: "0px"
         }, 2000);

@@ -50,6 +50,9 @@ body{
   .vuejs span{
     background-image: url("../img/svg-icon/vue.svg");
   }
+  .nuxtjs span{
+    background-image: url("../img/svg-icon/nuxt.svg");
+  }
   .social{
     left: -50px;
   }
